@@ -1,0 +1,40 @@
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+}
+
+img {
+	width: 100px;
+}
+
+#big_div {
+	margin: auto;
+	border: 5px solid black;
+	width: 516px;
+}
+
+div{
+	display: flex;
+}
+
+#d{
+	align-items: center;
+	justify-content: flex-start;
+
+}
+
+#c{
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+#c,#d{
+	flex-direction: row;
+}
+#a,#e{
+	flex-direction: column;
+}
+
+#e{
+	align-items:center;
+}
